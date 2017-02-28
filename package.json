@@ -1,0 +1,19 @@
+{
+  "name": "kiev-bot",
+  "version": "1.0.0",
+  "description": "Onko kievin kanaa? Jos on, kertoo Slackissa.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kooditonttu",
+  "license": "MIT",
+  "dependencies": {
+    "@types/cheerio": "^0.17.31",
+    "@types/node-fetch": "^1.6.7",
+    "@types/request": "0.0.40",
+    "cheerio": "^0.22.0",
+    "node-fetch": "^1.6.3",
+    "request": "^2.79.0"
+  }
+}
