@@ -3,5 +3,6 @@
 - npm install
 - muokkaa index.js >> aseta Slackista hankkimasi Incoming Webhook URL
 - node index
+
 # Kiitokset
 http://oispa.kievinkanaa.com
