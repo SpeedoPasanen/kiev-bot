@@ -4,7 +4,7 @@ Aseta oman Slack Incoming Webhookisi URL ao. muuttujaan
 $ npm install
 $ node index
 */
-var slackIncomingWebHookURL = 'https://hooks.slack.com/services/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';
+var slackIncomingWebHookURL = 'KORVAA OMALLA WEBHOOK-URLILLASI';
 var oispaSite = 'http://oispa.kievinkanaa.com/';
 var fetch = require('node-fetch');
 var cheerio = require('cheerio');
