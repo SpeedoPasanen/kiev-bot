@@ -38,7 +38,8 @@ fetch(oispaSite).then(resp => resp.text()).then(body => {
                 if (!error && response.statusCode == 200) {
                     return;
                 }
-                console.log('Virhe: ' + response.statusMessage);
+                console.log('Virhe: ');
+                console.log(response.statusCode || response);
             }
         );
     }
